@@ -82,7 +82,7 @@ public class Employee {
         System.out.println(worker1.toString());
         System.out.println(worker2.toString());
         System.out.println(worker3.toString());
-        System.out.println("Total sum = " + getTotalSum());
+        System.out.printf("Total sum = "+ "%.2f", getTotalSum());
 
         worker2.changeRate(50.8);
         worker3.changeRate(60.7);
@@ -92,6 +92,6 @@ public class Employee {
         System.out.println(worker1.toString());
         System.out.println(worker2.toString());
         System.out.println(worker3.toString());
-        System.out.println("Total sum = " + getTotalSum());
+        System.out.printf("Total sum = "+ "%.2f", getTotalSum());
     }
 }
